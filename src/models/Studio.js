@@ -82,6 +82,19 @@ const studioSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
+
+    // Atomic Booking Lock
+    bookingLockToken: {
+      type: String,
+      default: null,
+      select: false,
+    },
+
+    bookingLockUntil: {
+      type: Date,
+      default: null,
+      select: false,
+    },
   },
   { timestamps: true }
 );
