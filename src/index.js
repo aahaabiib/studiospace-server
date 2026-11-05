@@ -74,4 +74,8 @@ if (require.main === module) {
     });
 }
 
+<<<<<<< HEAD
 module.exports = app;
+=======
+module.exports = app;
+>>>>>>> e5df26a ( cache MongoDB connection and export app for serverless and vercle serverless config)
